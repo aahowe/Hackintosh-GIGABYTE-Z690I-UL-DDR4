@@ -18,9 +18,9 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 | -------- | --------------------------------------------- |
 | 主板     | GIGABYTE 技嘉 Z690I AORUS Ultra LITE DDR4     |
 | CPU      | Intel® Core™ i7-13700KF                       |
-| 内存     | 金百达 银爵 32GB(16G×2) DDR4 3600             |
+| 内存     | 光威(Gloway) 天策 32Gx2 DDR4 3200             |
 | 硬盘     | 西数 WD_BLACK™ SN750 500G                     |
-| 显卡     | AMD Radeon RX 5700 XT 50 周年纪念版           |
+| 显卡     | AMD Radeon™ VII                               |
 | 电源     | 海盗船 SF750 Platinum                         |
 | 无线网卡 | 博通 BCM94352Z(fenvi) + m.2转ngff卡 + FPC天线 |
 | 有线网卡 | Intel I225-V 2.5Gbit                          |
@@ -32,8 +32,8 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ## 软件
 
-* Bootloader: OpenCore 0.8.8-RELEASE
-* OS: macOS Ventura 13.1 (MacPro7,1)
+* Bootloader: OpenCore 0.8.9-RELEASE
+* OS: macOS Ventura 13.2.1 (MacPro7,1)
 
 ## 实现功能
 
@@ -68,17 +68,9 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 * Dumping DSDT: [SSDTTime](https://github.com/corpnewt/SSDTTime)
 * Toolbox: [Hackintool](https://github.com/headkaze/Hackintool)
 
-## Benchmarks
-
-| 项目                                            | 分数                          |
-| ----------------------------------------------- | ----------------------------- |
-| CPU - Geekbench                                 | 单核: 2180 / 多核: 17980      |
-| CPU - Cinebench R23                             | 单核: 2135 / 多核: 30154      |
-| AMD Radeon RX 5700 XT 50 周年纪念版 - Geekbench | OpenCL: 70184: / Metal: 79835 |
-
 ## 展示
 
-| ![device](./images/device.png)     | ![IMG_5286](./images/IMG_5286.JPG) |
+| ![device](./images/info.png)       | ![IMG_5286](./images/IMG_5286.JPG) |
 | ---------------------------------- | ---------------------------------- |
 | ![IMG_5287](./images/IMG_5287.JPG) | ![IMG_5262](./images/IMG_5262.JPG) |
 
