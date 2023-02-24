@@ -38,7 +38,6 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 ## 实现功能
 
 - [x] CPU变频/大小核调度
-- [x] AMD Radeon Pro W5700X 仿冒
 - [x] Audio Realtek® ALC4080 CODEC
 - [x] Intel I225-V 2.5Gb Ethernet
 - [x] Wi-Fi/蓝牙 (BCM94352Z)
