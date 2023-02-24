@@ -20,14 +20,6 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-EC-USBX.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
                     <string>SSDT-PLUG-ALT.aml</string>
                 </dict>
                 <dict>
@@ -36,7 +28,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-HPET.aml</string>
+                    <string>SSDT-EC.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -44,7 +36,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-SBUS-MCHC.aml</string>
+                    <string>SSDT-DMAR.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -55,9 +47,9 @@
                     <key>Comment</key>
                     <string>Delete standard DMAR table</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>OemTableId</key>
-                    <data></data>
+                    <data>RURLMiAgICA=</data>
                     <key>TableLength</key>
                     <integer>0</integer>
                     <key>TableSignature</key>
@@ -76,7 +68,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>JV9DUlM=</data>
                     <key>Limit</key>
@@ -106,7 +98,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>IgABeQA=</data>
                     <key>Limit</key>
@@ -136,7 +128,7 @@
                     <key>Count</key>
                     <integer>0</integer>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Find</key>
                     <data>IgEAeQA=</data>
                     <key>Limit</key>
@@ -434,7 +426,7 @@
                     <key>BundlePath</key>
                     <string>CPUFriendDataProvider.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.1</string>
+                    <string>V1.0.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -799,7 +791,7 @@
                 <key>PickerVariant</key>
                 <string>Auto</string>
                 <key>PollAppleHotKeys</key>
-                <true/>
+                <false/>
                 <key>ShowPicker</key>
                 <true/>
                 <key>TakeoffDelay</key>
@@ -925,21 +917,13 @@
                 <dict>
                     <key>DefaultBackgroundColor</key>
                     <data>AAAAAA==</data>
-                    <key>UIScale</key>
-                    <data>Ag==</data>
-                    <key>run-efi-updater</key>
-                    <string>No</string>
                 </dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
                     <key>revcpu</key>
                     <integer>1</integer>
-                    <key>revcpuname</key>
-                    <string>16-Core Intel i7-13700KF</string>
                     <key>rtc-blacklist</key>
                     <data></data>
-                    <key>run-efi-updater</key>
-                    <string>No</string>
                 </dict>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
@@ -948,7 +932,7 @@
                     <key>SystemAudioVolumeDB</key>
                     <data>4g==</data>
                     <key>boot-args</key>
-                    <string>e1000=0 agdpmod=pikera brcmfx-driver=2</string>
+                    <string>e1000=0</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -961,13 +945,11 @@
             <dict>
                 <key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
                 <array>
-                    <string>UIScale</string>
                     <string>DefaultBackgroundColor</string>
                 </array>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <array>
                     <string>rtc-blacklist</string>
-                    <string>opencore-version</string>
                     <string>revcpu</string>
                 </array>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
@@ -994,7 +976,7 @@
             <key>Generic</key>
             <dict>
                 <key>AdviseFeatures</key>
-                <true/>
+                <false/>
                 <key>MLB</key>
                 <string>F5K913100CDK3F71M</string>
                 <key>MaxBIOSVersion</key>
@@ -1185,7 +1167,7 @@
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
                 <key>UIScale</key>
-                <integer>-1</integer>
+                <integer>2</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
@@ -1220,7 +1202,7 @@
                 <key>DeviceProperties</key>
                 <false/>
                 <key>FirmwareVolume</key>
-                <false/>
+                <true/>
                 <key>HashServices</key>
                 <false/>
                 <key>OSInfo</key>

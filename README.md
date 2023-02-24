@@ -26,7 +26,7 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 | 有线网卡 | Intel I225-V 2.5Gbit                          |
 | 板载声卡 | Realtek® ALC4080 CODEC                        |
 | 散热     | 瓦尔基里(VALKYRIE）C240-RGB                   |
-| 机箱     | 逾辉 铝途 1                                   |
+| 机箱     | 酷鱼G5 Plus 水冷版                            |
 
 > 由于插槽使用cnvi协议，主板上的板载ax201**无法直接更换**为博通网卡
 
@@ -53,7 +53,7 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 - CFG-Lock - off
 - Fast Boot - off
-- VT-d - off
+- VT-d - on
 - CSM - off
 - VT-x - on
 - Above 4G decoding - on
@@ -68,12 +68,6 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 * Dumping DSDT: [SSDTTime](https://github.com/corpnewt/SSDTTime)
 * Toolbox: [Hackintool](https://github.com/headkaze/Hackintool)
 
-## 展示
-
-| ![device](./images/info.png)       | ![IMG_5286](./images/IMG_5286.JPG) |
-| ---------------------------------- | ---------------------------------- |
-| ![IMG_5287](./images/IMG_5287.JPG) | ![IMG_5262](./images/IMG_5262.JPG) |
-
 ## 参考
 
 [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
@@ -83,3 +77,6 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 [OpenCore 简体中文参考手册](https://oc.skk.moe/)
 
 [国光的黑苹果安装教程：手把手教你配置 OpenCore](https://apple.sqlsec.com/)
+
+[大头蔡Cass](https://space.bilibili.com/16323318/)
+
