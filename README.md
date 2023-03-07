@@ -14,25 +14,25 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ## 硬件列表
 
-| 项目     | 型号                                          |
-| -------- | --------------------------------------------- |
-| 主板     | GIGABYTE 技嘉 Z690I AORUS Ultra LITE DDR4     |
-| CPU      | Intel® Core™ i7-13700KF                       |
-| 内存     | 光威(Gloway) 天策 32Gx2 DDR4 3200             |
-| 硬盘     | 西数 WD_BLACK™ SN750 500G                     |
-| 显卡     | AMD Radeon™ VII                               |
-| 电源     | 海盗船 SF750 Platinum                         |
-| 无线网卡 | 博通 BCM94352Z(fenvi) + m.2转ngff卡 + FPC天线 |
-| 有线网卡 | Intel I225-V 2.5Gbit                          |
-| 板载声卡 | Realtek® ALC4080 CODEC                        |
-| 散热     | 瓦尔基里(VALKYRIE）C240-RGB                   |
-| 机箱     | 酷鱼G5 Plus 水冷版                            |
+| 项目     | 型号                                      |
+| -------- | ----------------------------------------- |
+| 主板     | GIGABYTE 技嘉 Z690I AORUS Ultra LITE DDR4 |
+| CPU      | Intel® Core™ i7-13700KF                   |
+| 内存     | 光威(Gloway) 天策 32Gx2 DDR4 3200         |
+| 硬盘     | 西数 WD_BLACK™ SN750 500G                 |
+| 显卡     | AMD Radeon™ VII                           |
+| 电源     | 海盗船 SF750 Platinum                     |
+| 无线网卡 | 博通 BCM94360NG                           |
+| 有线网卡 | Intel I225-V 2.5Gbit                      |
+| 板载声卡 | Realtek® ALC4080 CODEC                    |
+| 散热     | 瓦尔基里(VALKYRIE）C240-RGB               |
+| 机箱     | 酷鱼G5 Plus 水冷版                        |
 
-> 由于插槽使用cnvi协议，主板上的板载ax201**无法直接更换**为博通网卡
+> 主板上的板载ax201**可以直接更换**为BCM94360NG网卡！
 
 ## 软件
 
-* Bootloader: OpenCore 0.8.9-RELEASE
+* Bootloader: OpenCore 0.9.0-RELEASE
 * OS: macOS Ventura 13.2.1 (MacPro7,1)
 
 ## 实现功能
