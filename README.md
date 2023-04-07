@@ -19,7 +19,7 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 | 主板     | GIGABYTE 技嘉 Z690I AORUS Ultra LITE DDR4 |
 | CPU      | Intel® Core™ i7-13700KF                   |
 | 内存     | 光威(Gloway) 天策 32Gx2 DDR4 3200         |
-| 硬盘     | 西数 WD_BLACK™ SN750 500G                 |
+| 硬盘     | 海力士 PC801 NVMe SK hynix 1TB            |
 | 显卡     | AMD Radeon™ VII                           |
 | 电源     | 海盗船 SF750 Platinum                     |
 | 无线网卡 | 博通 BCM94360NG                           |
@@ -32,8 +32,8 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ## 软件
 
-* Bootloader: OpenCore 0.9.0-RELEASE
-* OS: macOS Ventura 13.2.1 (MacPro7,1)
+* Bootloader: OpenCore 0.9.1-RELEASE
+* OS: macOS Ventura 13.3 (MacPro7,1)
 
 ## 实现功能
 
