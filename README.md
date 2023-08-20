@@ -32,7 +32,7 @@ Highly recommended reading the whole [OpenCore Install Guide](https://dortania.g
 
 ## 软件
 
-* Bootloader: OpenCore 0.9.2-RELEASE
+* Bootloader: OpenCore 0.9.4-RELEASE
 * OS: macOS Ventura 13.3 (MacPro7,1)
 
 ## 实现功能
